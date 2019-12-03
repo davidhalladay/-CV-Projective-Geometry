@@ -138,7 +138,7 @@ work flow is provided below.
   
 - **Video Result**
 
-  ![ar_video](./images/ar_video.mp4)
+  ![ar_video](./images/ar_video.gif)
 
 - **Analysis**
   **Following are the matching result and cropping corner.**
