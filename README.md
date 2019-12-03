@@ -2,34 +2,34 @@
 
 **TOC**
 
-* [Environment setting (package version)](Environment setting (package version))
+* [Environment setting (package version)](#Environment_setting)
 
 * [Usage](#Usage)
 
-* [Part 1: Estimating Homography](#Part 1: Estimating Homography)
+* [Part 1: Estimating Homography](#Part_1-Estimating_Homography)
   
   * [Implementation](#Implement solution 2 for estimating homography)
   * [Solve_homography](#solve_homography)
   * [Result-01](#Result-01)
   
-* [Part 2: Unwarp the Screen](#Part 2: Unwarp the Screen)
+* [Part 2: Unwarp the Screen](#Part_2-Unwarp_the_Screen)
 
   * [Unwarp region](#Choose the unwarp region yourself)
   * [Result-02](#Result-02)
 
-* [Part 3: Unwarp the 3D Illusion](#Unwarp the 3D Illusion)
+* [Part 3: Unwarp the 3D Illusion](#Part_3-Unwarp_the_3D_Illusion)
 
   * [Result-03](#Result-03)
   * [Discussion](#Discussion)
 
-* [Part 4: Simple AR](#Part 4: Simple AR)
+* [Part 4: Simple AR](#Part_4-Simple_AR)
   
   * [Algorithm](#Algorithm)
   * [Result-04](#Result-04)
   
   
 
-## Environment setting (package version)
+## Environment_setting
 
 - System : MacOS Mojave
 - Python version : 3.7.4
@@ -49,7 +49,7 @@
 
     
 
-## Part 1: Estimating Homography
+## Part_1-Estimating_Homography
 
 ### Implement solution 2 for estimating homography
 
@@ -69,7 +69,7 @@ All implementations of functions follow the guideline in homework file provided 
 
 
 
-## Part 2: Unwarp the Screen
+## Part_2-Unwarp_the_Screen
 
 ### Choose the unwarp region yourself
 
@@ -85,7 +85,7 @@ My region : np.array([ [1984,1244], [2040,1215], [2028,1396], [2081,1365]])
 
 
 
-## Part 3: Unwarp the 3D Illusion
+## Part_3-Unwarp_the_3D_Illusion
 
 ### Result-03
 ![06](./images/06.png)
@@ -98,7 +98,7 @@ We found that we cannot get the parallel bars from the top view like the Ground 
 
 
 
-## Part 4: Simple AR
+## Part_4-Simple_AR
 
 ### Algorithm
 
