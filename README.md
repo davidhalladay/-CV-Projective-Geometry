@@ -8,13 +8,13 @@
 
 * [Part 1: Estimating Homography](#Part_1-Estimating_Homography)
   
-  * [Implementation](#Implement solution 2 for estimating homography)
+  * [Implementation](#Implement_solution_2)
   * [Solve_homography](#solve_homography)
   * [Result-01](#Result-01)
   
 * [Part 2: Unwarp the Screen](#Part_2-Unwarp_the_Screen)
 
-  * [Unwarp region](#Choose the unwarp region yourself)
+  * [Unwarp region](#Choose_the_unwarp_region)
   * [Result-02](#Result-02)
 
 * [Part 3: Unwarp the 3D Illusion](#Part_3-Unwarp_the_3D_Illusion)
@@ -51,7 +51,7 @@
 
 ## Part_1-Estimating_Homography
 
-### Implement solution 2 for estimating homography
+### Implement_solution_2
 
 ![01](./images/01.png)
 
@@ -71,7 +71,7 @@ All implementations of functions follow the guideline in homework file provided 
 
 ## Part_2-Unwarp_the_Screen
 
-### Choose the unwarp region yourself
+### Choose_the_unwarp_region
 
 My region : np.array([ [1984,1244], [2040,1215], [2028,1396], [2081,1365]])
 
